@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+config/credentials.js
+npm-debug.log
