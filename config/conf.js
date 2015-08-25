@@ -8,7 +8,8 @@ exports.config = {
   seleniumPort: null,
   seleniumArgs: [],
   suites: {
-    homepage: '../features/homepage.feature'
+    homepage: '../features/homepage.feature',
+    repository: '../features/repository.feature'
   },
   chromeOnly: true,
   chromeDriver: './node_modules/protractor/selenium/chromedriver',

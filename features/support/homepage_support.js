@@ -7,6 +7,7 @@ var homePage = function homePage(){
   var passwordField = element(by.xpath("//input[@name='password']"));
   var submitButton = element(by.xpath("//input[@type='submit']"));
   var profileDropdown = element(by.xpath("//*[@id='user-links']/li[3]/a"));
+  var profileLink = element(by.xpath("//*[@id='user-links']/li[3]/div/div/a[1]"));
   
   homePage.gotoLogin = function() {
     browser.get(browser.baseUrl);
@@ -30,6 +31,6 @@ var homePage = function homePage(){
     });
     browser.sleep(2000);
   }
-
+  
 }
 module.exports = homePage;
